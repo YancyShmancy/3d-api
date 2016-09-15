@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node api.js"
   },
+  "engines": {
+	"node": "6.3.0"   
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YancyShmancy/3d-api.git"
