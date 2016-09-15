@@ -1,7 +1,7 @@
 console.log("api.js");
 
-const port = 7646;
-const dataFilePath = "data/messages.json";
+const port = 80;
+const dataFilePath = __dirname +"/data/messages.json";
 
 const fs = require('fs');
 const express = require('express');
